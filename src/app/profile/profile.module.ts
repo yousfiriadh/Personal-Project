@@ -6,6 +6,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { IntroComponent } from './intro/intro.component';
 import { AboutComponent } from './about/about.component';
+import { ExperienceComponent } from './experience/experience.component';
 
 @NgModule({
   imports: [
@@ -19,6 +20,8 @@ import { AboutComponent } from './about/about.component';
     FooterComponent,
     IntroComponent,
     AboutComponent,
+  
+    ExperienceComponent,
 
   ],
   providers: [
